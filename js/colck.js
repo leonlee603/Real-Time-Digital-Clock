@@ -18,6 +18,8 @@ $(function() {
         hours = function() {
             if (hours > 12) {
                 return hours - 12;
+            } else {
+                return hours;
             }
         }();
         // Display the time with 2 digit.
